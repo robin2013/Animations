@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A060DEEB1CD7213300A6F756 /* CCControlLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A060DEEA1CD7213300A6F756 /* CCControlLayer.m */; };
+		A060DEEE1CD7225700A6F756 /* CCWaterDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = A060DEED1CD7225700A6F756 /* CCWaterDrop.m */; };
 		A09A8B021CCA6C6500017087 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A09A8B011CCA6C6500017087 /* main.m */; };
 		A09A8B051CCA6C6500017087 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A09A8B041CCA6C6500017087 /* AppDelegate.m */; };
 		A09A8B081CCA6C6500017087 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A09A8B071CCA6C6500017087 /* ViewController.m */; };
@@ -14,14 +16,15 @@
 		A09A8B0D1CCA6C6500017087 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A09A8B0C1CCA6C6500017087 /* Assets.xcassets */; };
 		A09A8B101CCA6C6500017087 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A09A8B0E1CCA6C6500017087 /* LaunchScreen.storyboard */; };
 		A09A8B191CCA6D8B00017087 /* CCNautiloidAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = A09A8B181CCA6D8B00017087 /* CCNautiloidAnimationView.m */; };
-		A8150FE21CCDEACD00D50210 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8150FE11CCDEACD00D50210 /* 1.jpg */; };
-		A8150FE41CCDEC3300D50210 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8150FE31CCDEC3300D50210 /* icon@2x.png */; };
-		A8150FE61CCDED6200D50210 /* icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = A8150FE51CCDED6200D50210 /* icon1.png */; };
 		A8150FE91CCE19C700D50210 /* CCReplicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8150FE81CCE19C700D50210 /* CCReplicatorView.m */; };
 		A83F919A1CCF7ECC00D0366D /* CCLineFlyView.m in Sources */ = {isa = PBXBuildFile; fileRef = A83F91991CCF7ECC00D0366D /* CCLineFlyView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A060DEE91CD7213300A6F756 /* CCControlLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCControlLayer.h; sourceTree = "<group>"; };
+		A060DEEA1CD7213300A6F756 /* CCControlLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCControlLayer.m; sourceTree = "<group>"; };
+		A060DEEC1CD7225700A6F756 /* CCWaterDrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCWaterDrop.h; sourceTree = "<group>"; };
+		A060DEED1CD7225700A6F756 /* CCWaterDrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCWaterDrop.m; sourceTree = "<group>"; };
 		A09A8AFD1CCA6C6500017087 /* Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A09A8B011CCA6C6500017087 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A09A8B031CCA6C6500017087 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -34,9 +37,6 @@
 		A09A8B111CCA6C6500017087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A09A8B171CCA6D8B00017087 /* CCNautiloidAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNautiloidAnimationView.h; sourceTree = "<group>"; };
 		A09A8B181CCA6D8B00017087 /* CCNautiloidAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCNautiloidAnimationView.m; sourceTree = "<group>"; };
-		A8150FE11CCDEACD00D50210 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = ../../../../Pictures/1.jpg; sourceTree = "<group>"; };
-		A8150FE31CCDEC3300D50210 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "../../../../Pictures/icon@2x.png"; sourceTree = "<group>"; };
-		A8150FE51CCDED6200D50210 /* icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon1.png; path = ../../../../Pictures/icon1.png; sourceTree = "<group>"; };
 		A8150FE71CCE19C700D50210 /* CCReplicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCReplicatorView.h; sourceTree = "<group>"; };
 		A8150FE81CCE19C700D50210 /* CCReplicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCReplicatorView.m; sourceTree = "<group>"; };
 		A83F91981CCF7ECC00D0366D /* CCLineFlyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLineFlyView.h; sourceTree = "<group>"; };
@@ -78,10 +78,7 @@
 				A09A8B041CCA6C6500017087 /* AppDelegate.m */,
 				A09A8B061CCA6C6500017087 /* ViewController.h */,
 				A09A8B071CCA6C6500017087 /* ViewController.m */,
-				A8150FE31CCDEC3300D50210 /* icon@2x.png */,
-				A8150FE51CCDED6200D50210 /* icon1.png */,
 				A09A8B091CCA6C6500017087 /* Main.storyboard */,
-				A8150FE11CCDEACD00D50210 /* 1.jpg */,
 				A09A8B0C1CCA6C6500017087 /* Assets.xcassets */,
 				A09A8B0E1CCA6C6500017087 /* LaunchScreen.storyboard */,
 				A09A8B111CCA6C6500017087 /* Info.plist */,
@@ -107,6 +104,10 @@
 			children = (
 				A83F91981CCF7ECC00D0366D /* CCLineFlyView.h */,
 				A83F91991CCF7ECC00D0366D /* CCLineFlyView.m */,
+				A060DEE91CD7213300A6F756 /* CCControlLayer.h */,
+				A060DEEA1CD7213300A6F756 /* CCControlLayer.m */,
+				A060DEEC1CD7225700A6F756 /* CCWaterDrop.h */,
+				A060DEED1CD7225700A6F756 /* CCWaterDrop.m */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -169,9 +170,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A09A8B101CCA6C6500017087 /* LaunchScreen.storyboard in Resources */,
-				A8150FE41CCDEC3300D50210 /* icon@2x.png in Resources */,
-				A8150FE61CCDED6200D50210 /* icon1.png in Resources */,
-				A8150FE21CCDEACD00D50210 /* 1.jpg in Resources */,
 				A09A8B0D1CCA6C6500017087 /* Assets.xcassets in Resources */,
 				A09A8B0B1CCA6C6500017087 /* Main.storyboard in Resources */,
 			);
@@ -186,9 +184,11 @@
 			files = (
 				A83F919A1CCF7ECC00D0366D /* CCLineFlyView.m in Sources */,
 				A09A8B081CCA6C6500017087 /* ViewController.m in Sources */,
+				A060DEEB1CD7213300A6F756 /* CCControlLayer.m in Sources */,
 				A8150FE91CCE19C700D50210 /* CCReplicatorView.m in Sources */,
 				A09A8B051CCA6C6500017087 /* AppDelegate.m in Sources */,
 				A09A8B021CCA6C6500017087 /* main.m in Sources */,
+				A060DEEE1CD7225700A6F756 /* CCWaterDrop.m in Sources */,
 				A09A8B191CCA6D8B00017087 /* CCNautiloidAnimationView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
